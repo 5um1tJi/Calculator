@@ -13,7 +13,7 @@ function calculate(){
     catch(error){
         display.value = "Logic Error Bro !";
         setTimeout(() => {
-            console.log("Executing next code...");
+            console.log("Executing next code.");
             display.value = "";
         }, 1000);
     }
